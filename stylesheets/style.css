@@ -10497,6 +10497,12 @@ footer .email-input-container input {
 }
 
 @media only screen and (max-width: 767px){
+	.load_more { 
+		padding: 18px 40px; 
+		font-size: 16px;
+		max-width: 287px;
+		width: 100%;
+	}
 	.video-bg video {
 		height: 100%;
 		object-fit: cover;
@@ -10519,7 +10525,7 @@ footer .email-input-container input {
 	}
 	.products_grid_wrapper {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 50% 50%;
 		column-gap: 10px;
 		row-gap: 30px;
 		padding-bottom: 40px;
