@@ -20,6 +20,20 @@
     src="https://code.jquery.com/jquery-2.2.4.js"
     integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
     crossorigin="anonymous"></script>
+    <script>
+        function toggleHiddenClass(element) {
+// Get the previous sibling element
+const previousSibling = element.previousElementSibling;
+
+// Check if the previous sibling exists
+if (previousSibling) {
+  // Toggle the "hidden" class
+  previousSibling.classList.toggle("hidden");
+}
+// Toggle the "hidden" class on the clicked button itself
+element.classList.toggle("hidden");
+}
+</script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -55,21 +69,10 @@
     <div id="mainContent">
 
       <!-- Main Intro Video -->
-      <section class="section_01 video-bg position-relative anim-opac is-inview"  data-scroll="">
-	
-
-        
-        <div class="video-bg__media" aria-hidden="true">
-          <img src="./images/pboth.jpg" alt="Oribe Remedies Product Video">
-          <video autoplay="" loop="" muted="" playsinline="" src="./assets/louis_Barthelemy_main_video.mp4"></video>
-        </div>
-      
-        <div class="container max-width-lg position-relative z-index-2">
-          <div class="flex flex-center padding-y-xxxl">
-            <div class="text-component text-center">
-              
-            </div>
-          </div>
+      <section class="section_01 video-bg position-relative "  data-scroll="">
+        <div class="" aria-hidden="true">
+          
+          <video width="100%" autoplay="" loop="" muted="" playsinline="" src="./assets/mainvideo.mp4"></video>
         </div>
         
         
@@ -78,178 +81,120 @@
 
 
       <section class="padding-y-xl section_02">
-        <div class="container max-width-xxxs main-page-heading-container">
-          <p class="font-secondary text-xxxxxl text-left main-page-heading"><em>Lather,</em> </p>
-          <p class="font-secondary text-xxxl text-center main-page-heading-sm">Rinse,</p>
-          <p class="font-secondary text-xxxxxl text-right main-page-heading"><em>Refill</em> </p>
+        <div class="container  main-page-heading-container text-center"> 
+          <p class="font-secondary text-xxxl  main-page-heading-sm">The Year of Artful Gifting</p> 
+          <p class="pre_heading font-secondary">Gifts to share the eternal ritual of caring for your hair</p>
         </div>
-        <div class="max-width-xxxxs divider"></div>
         <div class="container max-width-md text-center">
           <div class="text-component padding-top-md">
-            <div class="container padding-bottom-lg  max-width-md main-page-subheading-container">
-              <em class="font-secondary text-xxl font-light letter-spacing-md main-page-subheading" style="margin-bottom: 30px;">
-                At Oribe, we believe in big hair—and a small carbon footprint.
+            <div class="container   max-width-md main-page-subheading-container">
+              <em class="font-secondary text-md font-light letter-spacing-md main-page-subheading" style="margin-bottom: 30px;">
+                Eternal Rituals Gift Set Collection - Oribe x Louis Barthélemy
               </em>
             </div>
-            <p class="letter-spacing-md text-lg main-page-sub-subheading">Proudly offering Liter Refills. As part of our continued commitment to sustainable packaging, we’ve created new refill pouches for our most popular liter-sized shampoos and conditioners and our luxurious hand wash.</p>
+            <p class="letter-spacing-md text-lg main-page-sub-subheading">
+                For the Holiday 2023 Collection, Oribe collaborated with multidisciplinary artist and designer Louis Barthélemy to bring to life our unique expression of heritage craftsmanship and vivid storytelling through seven limited-edition gift sets.
+            </p>
+            <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="https://www.oribe.com/oribestorefront/oribe/en/-/Shop-All/Body-%26-Fragrance/C%C3%B4te-d%27Azur-Revitalizing-Hand-Wash---Liter-Refill/p/401830" target="_blank">
+              LEARN MORE ABOUT THE COLLABORATION
+             </a>
           </div>
         </div>
       </section>
 
-      <section class="section_03">
-        <div class="media-canvas" style="--aspect-ratio: 16 / 9;">
-          <img class="media" src="assets/Rectangle_5.png">
-        </div>
-      </section>
-
-
-      <section  class="section_04">
-        <div class="container padding-y-xl max-width-md text-center">
-          <em class="font-secondary text-xl font-light letter-spacing-md ">Each pouch uses 71% less single-use plastic than our liter bottles.<br>
-            We encourage you to join us on our journey to a more sustainable future by refilling and reusing our beautiful packaging.</em>
-          
-        </div>
-      </section>
+      
 
       <section class="section_05">
         <div>
           <div class="product-card flex flex-direction-reverse-mobile" >
 
             <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
-              <div class="text-xl text-left product-title">Hair Alchemy</div>
-              
-              <div class="text-md text-left margin-bottom-lg">Resilience Shampoo & Conditioner</div>
+              <div class="text-xl text-left product-title">Gold Lust Collection</div> 
   
               <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >
-                Reduce hair breakage and fortify strands from the inside out. Hair Alchemy Shampoo penetrates the hair cortex to build strength from within as it gently cleanses, while Hair Alchemy Conditioner creates a protective shield around strands and delivers a surge of moisture for smooth, strong, ultra-resilient hair.
-              </div>
+                The secret to youthful hair. Gold Lust Shampoo rejuvenates hair to its healthiest prime, while Gold Lust Conditioner undoes the damage of time—and style. A single drop of Gold Lust Nourishing Hair Oil on wet hair seals in shine before heat styling, and smooths in softness and luster on dry hair. (Value $148)
+                         
+            </div>
               <a class="btn btn--primary btn--md width-100% text-uppercase"
-              href="https://www.oribe.com/oribestorefront/oribe/en/-/search/?text=hair+alchemy+liter" target="_blank">
-               Shop Now
+              href="#" target="_blank">
+              SHOP NOW—$115
              </a>
 
             </div>
             <div class="width-50% product-card-img">
-              <a tabindex="0" href="https://www.oribe.com/oribestorefront/oribe/en/-/search/?text=hair+alchemy+liter" target="_blank">
+              <a tabindex="0" href="#" target="_blank">
+              <img class="" src="assets/image_1.png">
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div>
+          <div class="product-card flex flex-direction-mobile" >
+            <div class="width-50% product-card-img">
+              <a tabindex="0" href="#" target="_blank">
+              <img class="" src="assets/image_2.png">
+              </a>
+            </div>
+            <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
+              <div class="text-xl text-left margin-bottom-xxxs product-title">Hair Alchemy Collection</div> 
+  
+              <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >
+                For those seeking strength and length. Used in combination with the Hair Alchemy Shampoo and Conditioner, the Hair Alchemy Fortifying Treatment Serum provides nearly instant fortification: Clinically proven to make hair 2.9x more elastic and 133% stronger.* (Value $139)            </div>
+  
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW—$115
+             </a>
+             <p class="small_text_bottom text-xs">*Based on a clinical test after 5 uses of Hair Alchemy Shampoo, Conditioner and Fortifying Treatment Serum when used as a system vs non-conditioning shampoo.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div>
+          <div class="product-card flex flex-direction-reverse-mobile" >
+
+            <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
+              <div class="text-xl text-left product-title">Signature Style Set</div> 
+  
+              <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >
+                The elements of Oribe style. Signature Shampoo and Conditioner gently cleanse, soften and protect. Dry Texturizing Spray builds in volume and sultry next-day texture while absorbing oil at the roots to lengthen the life of your style. (Value $80)            </div>
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+               href="#" target="_blank">
+               SHOP NOW—$72
+              </a>
+
+            </div>
+            <div class="width-50% product-card-img">
+              <a tabindex="0" href="#" target="_blank">
+              <img class="" src="assets/image_3.png">
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div>
+          <div class="product-card flex flex-direction-mobile" >
+            <div class="width-50% product-card-img">
+              <a tabindex="0" href="#" target="_blank">
               <img class="" src="assets/image_4.png">
               </a>
             </div>
-
-          </div>
-        </div>
-
-        <div>
-          <div class="product-card flex flex-direction-mobile" >
-            <div class="width-50% product-card-img">
-              <a tabindex="0" href="https://www.oribe.com/oribestorefront/oribe/en/-/search/?text=gold+lust+liter" target="_blank">
-              <img class="" src="assets/image_25.png">
-              </a>
-            </div>
-            <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
-              <div class="text-xl text-left margin-bottom-xxxs product-title">Gold Lust </div>
-              <div class="text-md text-left margin-bottom-lg">Repair & Restore Shampoo & Conditioner</div>
-  
-              <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >Reawaken your hair to its glossiest, healthiest prime. Gold Lust Shampoo rejuvenates with our revolutionary bio-restorative complex, while Gold Lust Conditioner undoes the damage of time (and style).</div>
-  
-              <a class="btn btn--primary btn--md width-100% text-uppercase"
-              href="https://www.oribe.com/oribestorefront/oribe/en/-/search/?text=gold+lust+liter" target="_blank">
-               Shop Now
-             </a>
-            </div>
-
-          </div>
-        </div>
-
-        <div>
-          <div class="product-card flex flex-direction-reverse-mobile" >
-
-            <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
-              <div class="text-xl text-left product-title">Signature</div>
-              
-              <div class="text-md text-left margin-bottom-lg">Shampoo & Conditioner</div>
-  
-              <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >Every morning should start with a little indulgence. Signature Shampoo is a rich daily cleanser that silkens, detangles and protects, while Signature Conditioner contains hydrating polymers that revive youthful shine for lustrous, healthy locks. Prepare your hair for glamour.</div>
-              <a class="btn btn--primary btn--md width-100% text-uppercase"
-               href="https://www.oribe.com/oribestorefront/oribe/en/-/search/?text=signature+liter" target="_blank">
-                Shop Now
-              </a>
-
-            </div>
-            <div class="width-50% product-card-img">
-              <a tabindex="0" href="https://www.oribe.com/oribestorefront/oribe/en/-/search/?text=signature+liter" target="_blank">
-              <img class="" src="assets/image_28.png">
-              </a>
-            </div>
-
-          </div>
-        </div>
-
-        <div>
-          <div class="product-card flex flex-direction-mobile" >
-            <div class="width-50% product-card-img">
-              <a tabindex="0" href="https://www.oribe.com/oribestorefront/oribe/en/-/search/?text=beautiful+color+liter" target="_blank">
-              <img class="" src="assets/image_29.png">
-              </a>
-            </div>
             <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
 
-              <div class="text-md text-center text-truncate padding-bottom-xs">Shampoo & Conditioner for</div>
-              <div class="text-xl text-center product-title text-truncate margin-bottom-lg">Beautiful Color</div>
-  
-              <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >Extend the bright, happy life of your dye. Shampoo for Beautiful Color’s high-tech ingredients target damaged areas for intense moisture, while Conditioner for Beautiful Color’s rich, restorative formula soothes over-processed color-treated hair with enhanced environmental protection to keep color-sapping UV rays at bay.</div>
-              <a class="btn btn--primary btn--md width-100% text-uppercase"
-              href="https://www.oribe.com/oribestorefront/oribe/en/-/search/?text=beautiful+color+liter" target="_blank">
-               Shop Now
-             </a>
-
-            </div>
-
-          </div>
-        </div>
-
-        <div>
-          <div class="product-card flex flex-direction-reverse-mobile" >
-
-            <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
-              <div class="text-md text-center text-truncate padding-bottom-xs">Côte d’Azur</div>
-              <div class="text-xl text-center product-title text-truncate margin-bottom-lg">Revitalizing Hand Wash </div>
-              
-              
-  
-              <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >Elevate your ritual with this revitalizing hand wash. Our signature Côte d’Azur scent—a sun-drenched blend of Mediterranean citrus and white butterfly jasmine—infuses this softening cleanser for a moment of unexpected decadence.</div>
-  
-              <a class="btn btn--primary btn--md width-100% text-uppercase"
-              href="https://www.oribe.com/oribestorefront/oribe/en/-/Shop-All/Body-%26-Fragrance/C%C3%B4te-d%27Azur-Revitalizing-Hand-Wash---Liter-Refill/p/401830" target="_blank">
-               Shop Now
-             </a>
-            </div>
-            <div class="width-50% product-card-img">
-              <a tabindex="0" href="https://www.oribe.com/oribestorefront/oribe/en/-/Shop-All/Body-%26-Fragrance/C%C3%B4te-d%27Azur-Revitalizing-Hand-Wash---Liter-Refill/p/401830" target="_blank">
-              <img class="" src="assets/cote.jpg">
-              </a>
-            </div>
-
-          </div>
-        </div>
-
-        <div>
-          <div class="product-card flex flex-direction-mobile" >
-            <div class="width-50% product-card-img">
-              <a tabindex="0" href="https://www.oribe.com/oribestorefront/oribe/en/-/Shop-All/Body-%26-Fragrance/Body/c/body" target="_blank">
-              <img class="" src="assets/image_33.png">
-              </a>
-            </div>
-            <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
-
-              <div class="text-md text-center text-truncate padding-bottom-xs">Côte d’Azur, Desertland & Valley of Flowers</div>
-              <div class="text-xl text-center product-title text-truncate margin-bottom-lg">Body Wash & Crème</div>
+                <div class="text-xl text-left product-title">Hair Alchemy Travel Set</div> 
   
               <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >
-                Transport your senses with our signature fragrances in formulas to lather and smooth on. Our restorative, pearlescent body washes gently cleanse skin and add silky softness, while our indulgently rich body crèmes smooth, soften, and deliver the deepest hydration.
+                Strengthen, lengthen, and go. Hair Alchemy Shampoo and Conditioner fortify fragile strands, preventing hair fall caused by breakage. Hair Alchemy Fortifying Treatment Serum forms a scaffold around each hair fiber to ensure strength and encourage length. 
+                (Value $73)          
               </div>
               <a class="btn btn--primary btn--md width-100% text-uppercase"
-              href="https://www.oribe.com/oribestorefront/oribe/en/-/Shop-All/Body-%26-Fragrance/Body/c/body" target="_blank">
-               Shop Now
+              href="#" target="_blank">
+              SHOP NOW—$50
              </a>
 
             </div>
@@ -257,228 +202,580 @@
           </div>
         </div>
 
-        
-      </section>
+        <div>
+          <div class="product-card flex flex-direction-reverse-mobile" >
 
-      <section class="section_06 video-bg position-relative anim-opac is-inview" style="height: 546px;" data-scroll="">
-	
-
-        
-        <div class="video-bg__media" aria-hidden="true">
-          <img src="./images/pboth.jpg" alt="Oribe Remedies Product Video">
-          <video autoplay="" loop="" muted="" playsinline="" src="./assets/how-to-refill.mp4"></video>
-        </div>
-      
-        <div class="container max-width-lg position-relative z-index-2">
-          <div class="flex flex-center padding-y-xxxl">
-            <div class="text-component text-center">
+            <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl"> 
+              <div class="text-xl text-center product-title ">Gold Lust Liter Set</div>
               
+              
+  
+              <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >
+                Lust for liters. Gold Lust Shampoo rejuvenates hair to its healthiest prime with our revolutionary bio-restorative complex, while Gold Lust Conditioner undoes the damage of time — and style. The sculptural (and refillable!) pump bottles are truly the fountain of youth for soft, shiny, ageless hair. (Value $366)
+              </div>
+  
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW—$305
+             </a>
             </div>
+            <div class="width-50% product-card-img">
+              <a tabindex="0" href="#" target="_blank">
+              <img class="" src="assets/image_5.png">
+              </a>
+            </div>
+
           </div>
         </div>
-        
-        
-      </section>
-      
-      <section class="padding-y-lg section_07">
-        
-        <div class="container max-width-xxxxs how-to-refill-header-container">
-          <p class="font-secondary text-xxxxl text-left"><em>How to</em> </p>
-          <p class="font-secondary text-xxxxl text-right line-height-heading"><em>Refill</em> </p>
-        </div>
-        <div class="max-width-xxxxs divider"></div>
-        <div class="flex padding-x-xxl how-to-refill-items">
-          <div class="how-to-refill-items-flex50">
-            <div class="margin-bottom-lg text-md bullets_wrapper"><em class="font-secondary bullet">1.</em> First, remove bottle pump and set aside to use after the refill process. Leave any residual product inside the bottle - do not rinse or wash the bottle. Adding water or soap can introduce contaminants and affect the performance of the fresh product.</div>
-            <div class=" margin-bottom-lg text-lg bullets_wrapper"><em class="font-secondary bullet">2.</em> Open the refill pouch by removing the cap. Gently squeeze the pouch to avoid spillage, using the handle for greater control during filling. To fully evacuate the liter refill pouch, we suggest rolling the pouch up from the bottom as you refill your bottle, similar to rolling up a toothpaste tube. Always fill the same product into its original package, e.g. refill Gold Lust Repair & Restore Shampoo into a liter bottle already containing Gold Lust Repair & Restore Shampoo.</div>
-          </div>
-          <div class="how-to-refill-items-flex50">
-            <div class=" margin-bottom-lg text-lg bullets_wrapper"><em class="font-secondary bullet">3.</em> Be sure to leave ample headspace in the bottle to accommodate for product displaced by the pump.</div>
-            <div class="margin-bottom-lg text-md bullets_wrapper"><em class="font-secondary bullet">4.</em> Replace the pump on the bottle. Replace cap on the refill pouch or discard if empty.</div>
-            <div class="font-secondary text-lg"><em><strong>Note:</strong> Any remaining product in the pouch can be used to refill your bottle in the future (up to 12 months from the initial opening).</em></div>
-          </div>
-        </div>
-      </section>
 
-
-
-      <!-- <section class="faq-section-desktop padding-y-lg padding-x-xl faq-section" style="background-color: #f3f2f0;">
-        <div class="padding-y-lg padding-x-lg max-width-md faq-container" style="background-color: #f6f7f1;">
-          <div class="container max-width-sm padding-bottom-lg">
-            <div class="text-xxl text-center faq-header">Frequently Asked</div>
-            <div class="font-secondary text-xxxxl text-center"><em>Questions</em></div>
-          </div>
-          <div class="max-width-xxxxs divider"></div>
-          <div class="questions">
-            <div class="big-question margin-bottom-md">
-              <div class="question font-secondary text-xl max-width-xs margin-bottom-sm"><em>Are the liter refill pouches recyclable?</em></div>
-              <div class="big-answer flex">
-                <div class="answer">The liter refill pouches are made from a multi-layered film which is essential to protect the integrity of the product inside. Multi-layered film pouches are not yet able to be recycled widely; at present, only about 20% of Americans can recycle this type of material*. As a result of this, the new liter refill pouches are not recyclable. We are actively researching and testing alternative pouch materials that can both maintain the integrity of the product inside and are also recyclable, or contain recycled content, in an effort to continue to improve our environmental impact.</div>
-                <div class="answer">As part of our larger commitment to sustainability, we are always looking for ways to evolve our packaging to make it more environmentally friendly. Our new liter refill pouches are a forward step in this journey. The pouches use 71% less single-use plastic than our current liter bottles, reduced carbon emissions in transport due to the compact format of the pouches and localized manufacturing, and reduced material into the waste stream.
-                  <div class="font-secondary margin-top-sm"><em>*Based on information sourced from Howtorecycle.info</em></div>
-                </div>
-              </div>
-
+        <div>
+          <div class="product-card flex flex-direction-mobile" >
+            <div class="width-50% product-card-img">
+              <a tabindex="0" href="#" target="_blank">
+              <img class="" src="assets/image_6.png">
+              </a>
             </div>
-            <div class="normal-questions flex">
-              <div class="faq-item margin-bottom-md">
-                <div class="normal-question font-secondary margin-bottom-sm">
-                  <em>Does the brand plan on creating refill pouches for any other products in the line?</em>
-                </div>
-                <div class="normal-answer">
-                  Yes, we are currently exploring refills/refillable options for additional Oribe products in the future.
-                </div>
-              </div>
-
-              <div class="faq-item faq-item-padding-left margin-bottom-md">
-                <div class="normal-question font-secondary margin-bottom-sm">
-                  <em>How many times can the liter refill pouches be used?</em>
-                </div>
-                <div class="normal-answer">
-                  A single liter refill pouch will refill one liter-size Oribe shampoo or conditioner bottle once (1x) and one Oribe Côte d’Azur Revitalizing Hand Wash 3 and 1/3 times.
-                </div>
-              </div>
-
-              <div class="faq-item margin-bottom-md">
-                <div class="normal-question font-secondary margin-bottom-sm">
-                  <em>Why are the refill pouches only offered for select Oribe products?</em>
-                </div>
-                <div class="normal-answer">
-                  We prioritized creating refill pouches for our most in-demand and best-selling collections globally among both consumers (at retail) and within salons. Given the high volume of product used within salons, we saw the opportunity to reduce the amount of potential waste and reuse on a larger scale which made sense to act upon.
-                </div>
-              </div>
-
-              <div class="faq-item faq-item-padding-left margin-bottom-md">
-                <div class="normal-question font-secondary margin-bottom-sm">
-                  <em>Can the liter refill pouches be used as standalone products?</em>
-                </div>
-                <div class="normal-answer">
-                  The liter refill pouches were designed to be used as a system with your compatible, liter-size Oribe shampoo and conditioner or hand wash. For the best user experience, we recommend using the Oribe liter-size bottle with a pump and your refill pouches as a more sustainable way to prolong the life of your beautiful Oribe liter bottles. Oribe’s product pumps deliver the optimal product dosage and are engineered for up to 10,000 uses. Currently, pumps are not recyclable, therefore we encourage you to reuse your pumps as many times as possible.
-                </div>
-              </div>
-
-              <div class="faq-item margin-bottom-md">
-                <div class="normal-question font-secondary margin-bottom-sm">
-                  <em>Will there be any outer packaging on the liter refill pouches (similar to the box cartons on full-size Oribe products)?</em>
-                </div>
-                <div class="normal-answer">
-                  Oribe was mindful to reduce packaging for our liter refill pouches and eliminated the need for individual outer cartons (also known as secondary packaging). If you are purchasing the liter refills pouches from Oribe.com, you will receive the pouch by itself with no outer box/carton.
-                </div>
-              </div>
-
-              <div class="faq-item faq-item-padding-left margin-bottom-md">
-                <div class="normal-question font-secondary margin-bottom-sm">
-                  <em>How long can you reuse and refill the Oribe liter-size bottles themselves?</em>
-                </div>
-                <div class="normal-answer">
-                  We recommend replacing your Oribe liter-size bottle approximately every 12 months, or as necessary (i.e. bottle/pump damage, etc.).
-                </div>
-              </div>
-            </div>
-
-            <div class="big-question margin-bottom-md">
-              <div class="question font-secondary text-xl max-width-xs margin-bottom-sm">
-                <em>Does the brand have a larger sustainability plan? If so, what does the timing for this look like and why is this important to the brand?</em>
-              </div>
-              <div class="big-answer flex">
-                <div class="answer">
-                  At Oribe, we know that everything matters. We lust after the details and have a dedication to never stop improving, always striving to deliver our best. In the coming months, Oribe will unveil the brand’s ESG vision that outlines our commitment to driving action in achieving targeted goals around reshaping our future formulations, reinventing luxury packaging, reducing our carbon footprint and nourishing diversity, equity and inclusion.
-                </div>
-                <div class="answer">
-                  Part of being #oribeobsessed is about looking at challenges with fresh perspectives, and to reimagine what is possible and question the status quo. We have our sights set on a bold new ambition: to create products that uniquely blend luxurious craftsmanship with the highest standards of sustainability. And through this commitment, we are rededicating ourselves to innovating and improving – creating products that nourish hair and body, spirit, people and planet.
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </section> -->
-
-      <section class="section_08 faq-section-mobile padding-y-sm padding-x-sm" style="background-color: #f3f2f0;">
-        <div class="faq-container-mobile" style="background-color: #f6f7f1;">
-          <div class="faq-heading-mobile">
-            <!-- <div class="text-xl text-center faq-header">Frequently Asked</div> -->
-            <div class="font-secondary text-xxxl text-center"><em>Frequently Asked Questions</em></div>
-          </div>
-
-          <div class="acc questions-mobile">
-
-
-            <div class="acc__card faq-item-mobile">
-              <button class="acc__title question-mobile font-secondary"><em>Does the brand plan on creating refill pouches for any other products in the line?</em></button>
-              <div class="acc__panel answer-mobile">
-                Yes, we are currently exploring refills/refillable options for additional Oribe products in the future.
-              </div>
-            </div>
-            <div class="acc__card faq-item-mobile">
-              <button class="acc__title question-mobile font-secondary"><em>How many times can the liter refill pouches be used?</em></button>
-              <div class="acc__panel answer-mobile">
-                A single liter refill pouch will refill one liter-size Oribe shampoo or conditioner bottle once (1x) or one Oribe Body Wash, Body Crème, or Hand Wash 3 and 1/3 times.              </div>
-            </div>
-            <div class="acc__card faq-item-mobile">
-              <button class="acc__title question-mobile font-secondary"><em>Why are the refill pouches only offered for select Oribe products?</em></button>
-              <div class="acc__panel answer-mobile">
-                We prioritized creating refill pouches for our most in-demand and best-selling collections globally among both consumers (at retail) and within salons—targeting high-volume products to reduce potential waste on a larger scale.              </div>
-            </div>
-            <div class="acc__card faq-item-mobile">
-              <button class="acc__title question-mobile font-secondary"><em>Can the liter refill pouches be used as standalone products?</em></button>
-              <div class="acc__panel answer-mobile">
-               
-                The liter refill pouches were designed to be used as a system with your compatible, liter-size Oribe shampoo and conditioner or regular-size body wash, body crème, or hand wash. For the best user experience, we recommend using the Oribe liter-size bottle with a pump and your refill pouches as a more sustainable way to prolong the life of your beautiful Oribe liter bottles. Oribe’s product pumps deliver the optimal product dosage and are engineered for up to 10,000 uses. Currently, pumps are not recyclable, therefore we encourage you to reuse your pumps as many times as possible.
-
-              </div>
-            </div>
-            <div class="acc__card faq-item-mobile">
-              <button class="acc__title question-mobile font-secondary"><em>Will there be any outer packaging on the liter refill pouches (similar to the box cartons on full-size Oribe products)?</em></button>
-              <div class="acc__panel answer-mobile">
-                Oribe was mindful to reduce packaging for our liter refill pouches and eliminated the need for individual outer cartons (also known as secondary packaging). If you are purchasing the liter refills pouches from Oribe.com, you will receive the pouch by itself with no outer box/carton.
-              </div>
-            </div>
-            <div class="acc__card faq-item-mobile">
-              <button class="acc__title question-mobile font-secondary"><em>How long can you reuse and refill the Oribe liter-size bottles themselves?</em></button>
-              <div class="acc__panel answer-mobile">
-                We recommend replacing your Oribe liter-size bottle approximately every 12 months, or as necessary (i.e. bottle/pump damage, etc.).
-              </div>
-            </div>
-            <div class="acc__card faq-item-mobile">
-              <button class="acc__title question-mobile font-secondary"><em>Are the liter refill pouches recyclable?</em></button>
-              <div class="acc__panel answer-mobile">
-                The liter refill pouches are made from a multi-layered film which is essential to protect the integrity of the product inside. Multi-layered film pouches are not yet able to be recycled widely; at present, only about 20% of Americans can recycle this type of material.* As a result of this, the new liter refill pouches are not recyclable. We are actively researching and testing alternative pouch materials that can both maintain the integrity of the product inside and are also recyclable, or contain recycled content, in an effort to continue to improve our environmental impact.
-                 <br>
-                <br>
-                As part of our larger commitment to sustainability, we are always looking for ways to evolve our packaging to make it more environmentally friendly. Our new liter refill pouches are a forward step in this journey. The pouches use 71% less single-use plastic than our current liter bottles, reduced carbon emissions in transport due to the compact format of the pouches and localized manufacturing, and reduced material into the waste stream.
-                 <br>
-                <br>
-                <em>*Based on information sourced from  <a href="https://how2recycle.info/" target="_blank">Howtorecycle.info</a></em>
-              </div>
-            </div>
-            <div class="acc__card faq-item-mobile">
-              <button class="acc__title question-mobile font-secondary"><em>
-                Does the brand have a larger sustainability plan?
-              </em></button>
-              <div class="acc__panel answer-mobile">
-                At Oribe, we know that every detail makes a world of difference. We're committed to finding new ways to consciously craft our products and create a more luxuriously sustainable experience for all. That’s why we are innovating new materials and new approaches, harnessing our creativity for better luxury packaging, more mindful formulations, lower carbon emissions, and greater diversity, equity, and inclusion. 
-                <br> 
-                <br>
+            <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl">
                 
-                <a class="link" href="https://foreverobsessed.oribe.com/">Learn more about what we've achieved and our future goals.</a>
+              <div class="text-xl text-center product-title text-truncate margin-bottom-lg">Côte d’Azur Fragrance & Body Collection</div>
+  
+              <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >
+                Scent in abundance. For those who covet Côte d’Azur, Oribe’s signature fragrance: a sensual, citrusy floral evocative of the classic glamour of the French Riviera. Envelop the skin with our softening Body Wash and Body Crème, and complete with a misting of
+                Eau de Parfum. (Value $238)
+                          </div>
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW—$195
+             </a>
+
+            </div>
+
+          </div>
+        </div>
+        <div>
+            <div class="product-card flex flex-direction-reverse-mobile" >
+  
+              <div class="product-card-info width-50% flex flex-column flex-center padding-x-xl"> 
+                <div class="text-xl text-center product-title text-truncate margin-bottom-lg">Shine & Style Set</div>
+                
+                
+    
+                <div class="product-card-desc text-md padding-x-xs margin-bottom-md" >
+                    Softness and control at your fingertips. Supershine Moisturizing Cream is a luxe leave-in conditioner that tames frizz and elevates shine. Superfine Hair Spray offers invisible hold with touchable flexibility.
+(Value $42.50)
+                </div>
+    
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW—$35
+               </a>
               </div>
+              <div class="width-50% product-card-img">
+                <a tabindex="0" href="#" target="_blank">
+                <img class="" src="assets/image_7.png">
+                </a>
+              </div>
+  
+            </div>
+          </div>
+
+        
+      </section> 
+
+      <section  class="section_04">
+        <div class="container  max-width-md text-center">
+            <h2 class="title font-secondary">Hand-Picked Gift Ideas</h2>
+          <em class="font-secondary text-xl font-light letter-spacing-md "> 
+            Shop outside of the box with a curated assortment
+            of Oribe favorites</em>
+          
+        </div>
+      </section>
+
+      <section class="section_03"> 
+    <div class="banner_wrapper">
+        <img class="" src="assets/banner_02.png"> 
+        <div class="overlay_container">
+            <p class="overlay_text font-secondary">Haircare Obsessions</p>
+        </div>
+        
+    </div>
+          
+      </section> 
+
+      <section class="section_06 max_page_width">
+        <div class="products_grid_wrapper">
+            <div class="single_product_grid">
+                <img src="assets/pdp_1.png">
+                <p class="pdp_title">Gold Lust Repair & Restore Shampoo</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $53.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_2.png">
+                <p class="pdp_title">Gold Lust Repair & Restore Conditioner</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $56.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_3.png">
+                <p class="pdp_title">Gold Lust Transformative Masque</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $69.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_4.png">
+                <p class="pdp_title">Hair Alchemy Resilience Shampoo</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $52.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_5.png">
+                <p class="pdp_title">Hair Alchemy Resilience Conditioner</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $55.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_6.png">
+                <p class="pdp_title">Hair Alchemy Strengthening Masque</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $68.00
+               </a>
+            </div>
+        </div>
+        <div class="products_grid_wrapper hidden">
+          <div class="single_product_grid">
+              <img src="assets/pdp_1.png">
+              <p class="pdp_title">Gold Lust Repair & Restore Shampoo</p>
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW — $53.00
+             </a>
+          </div>
+          <div class="single_product_grid">
+              <img src="assets/pdp_2.png">
+              <p class="pdp_title">Gold Lust Repair & Restore Conditioner</p>
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW — $56.00
+             </a>
+          </div>
+          <div class="single_product_grid">
+              <img src="assets/pdp_3.png">
+              <p class="pdp_title">Gold Lust Transformative Masque</p>
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW — $69.00
+             </a>
+          </div>
+          <div class="single_product_grid">
+              <img src="assets/pdp_4.png">
+              <p class="pdp_title">Hair Alchemy Resilience Shampoo</p>
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW — $52.00
+             </a>
+          </div>
+          <div class="single_product_grid">
+              <img src="assets/pdp_5.png">
+              <p class="pdp_title">Hair Alchemy Resilience Conditioner</p>
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW — $55.00
+             </a>
+          </div>
+          <div class="single_product_grid">
+              <img src="assets/pdp_6.png">
+              <p class="pdp_title">Hair Alchemy Strengthening Masque</p>
+              <a class="btn btn--primary btn--md width-100% text-uppercase"
+              href="#" target="_blank">
+              SHOP NOW — $68.00
+             </a>
+          </div>
+      </div>
+        <button onclick="toggleHiddenClass(this)" type="button" class="load_more btn btn--secondary btn--md width-100% text-uppercase" >
+                LOAD MORE
+        </button>
+    </section>
+
+    <section class="section_07"> 
+      <div class="banner_wrapper">
+          <img class="" src="assets/sec_07_img.png"> 
+          <div class="overlay_container">
+              <p class="overlay_text font-secondary">Haircare Obsessions</p>
+          </div>
+          
+      </div>
+            
+        </section> 
+  
+        <section class="section_08 max_page_width">
+          <div class="products_grid_wrapper">
+              <div class="single_product_grid">
+                  <img src="assets/pdp_1.png">
+                  <p class="pdp_title">Gold Lust Repair & Restore Shampoo</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $53.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_2.png">
+                  <p class="pdp_title">Gold Lust Repair & Restore Conditioner</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $56.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_3.png">
+                  <p class="pdp_title">Gold Lust Transformative Masque</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $69.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_4.png">
+                  <p class="pdp_title">Hair Alchemy Resilience Shampoo</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $52.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_5.png">
+                  <p class="pdp_title">Hair Alchemy Resilience Conditioner</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $55.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_6.png">
+                  <p class="pdp_title">Hair Alchemy Strengthening Masque</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $68.00
+                 </a>
+              </div>
+          </div>
+          <div class="products_grid_wrapper hidden">
+            <div class="single_product_grid">
+                <img src="assets/pdp_1.png">
+                <p class="pdp_title">Gold Lust Repair & Restore Shampoo</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $53.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_2.png">
+                <p class="pdp_title">Gold Lust Repair & Restore Conditioner</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $56.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_3.png">
+                <p class="pdp_title">Gold Lust Transformative Masque</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $69.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_4.png">
+                <p class="pdp_title">Hair Alchemy Resilience Shampoo</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $52.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_5.png">
+                <p class="pdp_title">Hair Alchemy Resilience Conditioner</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $55.00
+               </a>
+            </div>
+            <div class="single_product_grid">
+                <img src="assets/pdp_6.png">
+                <p class="pdp_title">Hair Alchemy Strengthening Masque</p>
+                <a class="btn btn--primary btn--md width-100% text-uppercase"
+                href="#" target="_blank">
+                SHOP NOW — $68.00
+               </a>
+            </div>
+        </div>
+          <button onclick="toggleHiddenClass(this)" type="button" class="load_more btn btn--secondary btn--md width-100% text-uppercase" >
+                  LOAD MORE
+          </button>
+      </section>
+
+      <section class="section_09"> 
+        <div class="banner_wrapper">
+            <img class="" src="assets/sec_09_img.png"> 
+            <div class="overlay_container">
+                <p class="overlay_text font-secondary">Haircare Obsessions</p>
             </div>
             
-          </div>
-
         </div>
+              
+          </section> 
+    
+          <section class="section_10 max_page_width">
+            <div class="products_grid_wrapper">
+                <div class="single_product_grid">
+                    <img src="assets/pdp_1.png">
+                    <p class="pdp_title">Gold Lust Repair & Restore Shampoo</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $53.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_2.png">
+                    <p class="pdp_title">Gold Lust Repair & Restore Conditioner</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $56.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_3.png">
+                    <p class="pdp_title">Gold Lust Transformative Masque</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $69.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_4.png">
+                    <p class="pdp_title">Hair Alchemy Resilience Shampoo</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $52.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_5.png">
+                    <p class="pdp_title">Hair Alchemy Resilience Conditioner</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $55.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_6.png">
+                    <p class="pdp_title">Hair Alchemy Strengthening Masque</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $68.00
+                   </a>
+                </div>
+            </div>
+            <div class="products_grid_wrapper hidden">
+              <div class="single_product_grid">
+                  <img src="assets/pdp_1.png">
+                  <p class="pdp_title">Gold Lust Repair & Restore Shampoo</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $53.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_2.png">
+                  <p class="pdp_title">Gold Lust Repair & Restore Conditioner</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $56.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_3.png">
+                  <p class="pdp_title">Gold Lust Transformative Masque</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $69.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_4.png">
+                  <p class="pdp_title">Hair Alchemy Resilience Shampoo</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $52.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_5.png">
+                  <p class="pdp_title">Hair Alchemy Resilience Conditioner</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $55.00
+                 </a>
+              </div>
+              <div class="single_product_grid">
+                  <img src="assets/pdp_6.png">
+                  <p class="pdp_title">Hair Alchemy Strengthening Masque</p>
+                  <a class="btn btn--primary btn--md width-100% text-uppercase"
+                  href="#" target="_blank">
+                  SHOP NOW — $68.00
+                 </a>
+              </div>
+          </div>
+            <button onclick="toggleHiddenClass(this)" type="button" class="load_more btn btn--secondary btn--md width-100% text-uppercase" >
+                    LOAD MORE
+            </button>
+        </section>
 
-      </section>
-
+        <section class="section_09"> 
+          <div class="banner_wrapper">
+              <img class="" src="assets/sec_11_img.png"> 
+              <div class="overlay_container">
+                  <p class="overlay_text font-secondary">Haircare Obsessions</p>
+              </div>
+              
+          </div>
+                
+            </section> 
+      
+            <section class="section_10 max_page_width">
+              <div class="products_grid_wrapper">
+                  <div class="single_product_grid">
+                      <img src="assets/pdp_1.png">
+                      <p class="pdp_title">Gold Lust Repair & Restore Shampoo</p>
+                      <a class="btn btn--primary btn--md width-100% text-uppercase"
+                      href="#" target="_blank">
+                      SHOP NOW — $53.00
+                     </a>
+                  </div>
+                  <div class="single_product_grid">
+                      <img src="assets/pdp_2.png">
+                      <p class="pdp_title">Gold Lust Repair & Restore Conditioner</p>
+                      <a class="btn btn--primary btn--md width-100% text-uppercase"
+                      href="#" target="_blank">
+                      SHOP NOW — $56.00
+                     </a>
+                  </div>
+                  <div class="single_product_grid">
+                      <img src="assets/pdp_3.png">
+                      <p class="pdp_title">Gold Lust Transformative Masque</p>
+                      <a class="btn btn--primary btn--md width-100% text-uppercase"
+                      href="#" target="_blank">
+                      SHOP NOW — $69.00
+                     </a>
+                  </div>
+                  <div class="single_product_grid">
+                      <img src="assets/pdp_4.png">
+                      <p class="pdp_title">Hair Alchemy Resilience Shampoo</p>
+                      <a class="btn btn--primary btn--md width-100% text-uppercase"
+                      href="#" target="_blank">
+                      SHOP NOW — $52.00
+                     </a>
+                  </div>
+                  <div class="single_product_grid">
+                      <img src="assets/pdp_5.png">
+                      <p class="pdp_title">Hair Alchemy Resilience Conditioner</p>
+                      <a class="btn btn--primary btn--md width-100% text-uppercase"
+                      href="#" target="_blank">
+                      SHOP NOW — $55.00
+                     </a>
+                  </div>
+                  <div class="single_product_grid">
+                      <img src="assets/pdp_6.png">
+                      <p class="pdp_title">Hair Alchemy Strengthening Masque</p>
+                      <a class="btn btn--primary btn--md width-100% text-uppercase"
+                      href="#" target="_blank">
+                      SHOP NOW — $68.00
+                     </a>
+                  </div>
+              </div>
+              <div class="products_grid_wrapper hidden">
+                <div class="single_product_grid">
+                    <img src="assets/pdp_1.png">
+                    <p class="pdp_title">Gold Lust Repair & Restore Shampoo</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $53.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_2.png">
+                    <p class="pdp_title">Gold Lust Repair & Restore Conditioner</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $56.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_3.png">
+                    <p class="pdp_title">Gold Lust Transformative Masque</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $69.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_4.png">
+                    <p class="pdp_title">Hair Alchemy Resilience Shampoo</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $52.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_5.png">
+                    <p class="pdp_title">Hair Alchemy Resilience Conditioner</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $55.00
+                   </a>
+                </div>
+                <div class="single_product_grid">
+                    <img src="assets/pdp_6.png">
+                    <p class="pdp_title">Hair Alchemy Strengthening Masque</p>
+                    <a class="btn btn--primary btn--md width-100% text-uppercase"
+                    href="#" target="_blank">
+                    SHOP NOW — $68.00
+                   </a>
+                </div>
+            </div>
+              <button onclick="toggleHiddenClass(this)" type="button" class="load_more btn btn--secondary btn--md width-100% text-uppercase" >
+                      LOAD MORE
+              </button>
+          </section>
 
       <section class="section_09 position-sticky bottom-0">
         <a class="btn btn--primary btn--md width-100% text-uppercase" href="https://www.oribe.com/oribestorefront/oribe/en/-/Shop-All/Oribe-Hair/Liters/c/liters" target="_blank">Shop Now</a>
       </section>
       <script>
         $(document).ready(function(){
+          function toggleHiddenClass(element) {
+  // Get the previous sibling element
+  const previousSibling = element.previousElementSibling;
+
+  // Check if the previous sibling exists
+  if (previousSibling) {
+    // Toggle the "hidden" class
+    previousSibling.classList.toggle("hidden");
+  }
+}
+
             /* jQuery
           ================================================== */
           $(function() {
