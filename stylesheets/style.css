@@ -10567,6 +10567,10 @@ section.section_05 {
 	.section_04 .title{
 		font-size: 38px;
 	}
+	.single_product_grid p{
+		font-size: 14px;
+		padding-bottom: 0;
+	}
 	footer .email-input-container {
 		padding-bottom: 0;
 	}
