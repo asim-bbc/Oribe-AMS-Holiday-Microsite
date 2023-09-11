@@ -10109,8 +10109,8 @@ img{
 }
 
 .product-card{
-	margin-top: 8px;
-	margin-bottom: 8px;
+	/* margin-top: 8px;
+	margin-bottom: 8px; */
 }
 .acc__panel .link{
 	text-decoration: underline;
@@ -10335,6 +10335,9 @@ footer .email-input-container input {
 }
 .footer { 
     padding-bottom: 60px;
+}
+.video_single_container{
+	height: 100%;
 }
 @media only screen and (min-width: 768px){
 	.hidden-desktop{
