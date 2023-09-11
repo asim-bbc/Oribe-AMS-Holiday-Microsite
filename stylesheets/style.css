@@ -10221,7 +10221,11 @@ line-height: 150%; /* 39px */
 		flex-shrink: 0;
 		margin: auto; 
     display: flex; 
-} 
+} .load_more:hover { 
+    background: #000;
+    opacity: 0.8;
+    color: #fff;
+}
 p.small_text_bottom.text-xs {
     margin-top: 70px;
 }
