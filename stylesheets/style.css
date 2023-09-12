@@ -10029,6 +10029,8 @@ img{
 	}
 	.main-page-subheading-container{
 		width: 100%;
+		max-width: 321px;
+    margin: auto;
 	}
 
 	.margin-bottom-mobile{
@@ -10171,7 +10173,7 @@ section.section_09.position-sticky.bottom-0 {
     align-items: center;
 }
 .overlay_container{
-	font-size: 68px;
+	font-size: 60px;
 	position: absolute; 
 	margin:auto;
 	height: 100%;
@@ -10199,7 +10201,7 @@ max-width : 100%!important;
 .single_product_grid p{
 	padding-top: 18px;
 	padding-bottom: 29px; 
-font-size: 26px;
+font-size: 20px;
 font-style: normal;
 font-weight: 300;
 line-height: 150%; /* 39px */
@@ -10214,13 +10216,15 @@ line-height: 150%; /* 39px */
     justify-content: space-between;
 	}
 	.load_more {
+		min-width: 205px;
 		border: 2px solid #000;
 		background: #FFF;
 		max-width: 327.917px;
-		padding: 20px 40px;
+		padding: 20px 61px 20px 62px;
 		flex-shrink: 0;
 		margin: auto; 
     display: flex; 
+	font-size: 20px;
 } .load_more:hover { 
     background: #000;
     opacity: 0.8;
@@ -10343,6 +10347,15 @@ footer .email-input-container input {
 .video_single_container{
 	height: 100%;
 }
+p.pdp_title {
+    margin-top: 0;
+    height: -webkit-fill-available;
+}
+video { 
+    max-height: 650px;
+    width: 100%;
+    object-fit: cover;
+}
 @media only screen and (min-width: 768px){
 	.hidden-desktop{
 		display: none!important;
@@ -10390,6 +10403,7 @@ footer .email-input-container input {
 	.product-card-info.width-50\%.flex.flex-column.flex-center.padding-x-xl {
 		align-items: flex-start;
 		padding-left: 40px;
+		padding-right: 40px;
 	}
 	.product-card-desc.text-md.padding-x-xs.margin-bottom-md {
 		padding-left: 0;
@@ -10410,8 +10424,8 @@ footer .email-input-container input {
 		letter-spacing: normal;
 		text-align: left;
 	}
-	.text-md.text-left.margin-bottom-lg , .text-xl.text-center.product-title.text-truncate.margin-bottom-lg , .text-md.text-center.margin-bottom-lg{
-		margin-bottom: 19px;
+	.text-md.text-left.margin-bottom-lg , .product-title , .text-md.text-center.margin-bottom-lg{
+		margin-bottom: 19px!important;
 	}
 	.text-xl.text-left.margin-bottom-xxxs.product-title-sub{
 		margin-bottom: 6px;
@@ -10420,7 +10434,7 @@ footer .email-input-container input {
 		color: #000;
 		text-align: center;
 		font-feature-settings: 'liga' off;
-		font-family: var(--font-secondary);
+		font-family: var(--font-secondary)!important;
 		font-size: 38px;
 		font-style: italic;
 		font-weight: 400;
@@ -10479,7 +10493,7 @@ footer .email-input-container input {
 		margin: 0 auto;
 		padding: 20px 61px 20px 62px;
 		background-color: #000;
-		font-size: 18px;
+		font-size: 24px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10497,6 +10511,14 @@ footer .email-input-container input {
 }
 
 @media only screen and (max-width: 767px){
+	.product-title {
+		font-family: var(--font-secondary)!important;
+		font-style: italic!important;
+		margin-bottom: 16px!important;
+	}
+	.dash_for_desktop{
+		display: none;
+	}
 	.load_more { 
 		padding: 18px 40px; 
 		font-size: 16px;
@@ -10511,7 +10533,7 @@ footer .email-input-container input {
 		font-size: 22px;
 	}
 	.section_02 p.pre_heading { 
-		padding-bottom: 30px;
+		padding-bottom: 20px;
 		padding-top: 15px;
 	}
 	.section_02 p.font-secondary.text-xxxl.main-page-heading-sm {
@@ -10562,7 +10584,7 @@ section.section_05 {
   text-align: center;
 	}
 	.section_02 p.letter-spacing-md.text-lg.main-page-sub-subheading {
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
@@ -10578,7 +10600,7 @@ section.section_05 {
 		font-size: 38px;
 	}
 	.single_product_grid p{
-		font-size: 14px;
+		font-size: 16px;
 		padding-bottom: 0;
 	}
 	footer .email-input-container {
@@ -10713,7 +10735,7 @@ section.section_05 {
 		text-align: center;
 	}
 	a.btn.btn--primary.btn--md.width-100\%.text-uppercase {
-		margin-top: 30px;
+		margin-top: 10px;
 		font-size: 16px;
 		font-weight: normal;
 		font-stretch: condensed;
