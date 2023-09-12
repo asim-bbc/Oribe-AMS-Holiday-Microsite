@@ -10183,6 +10183,7 @@ section.section_09.position-sticky.bottom-0 {
 	align-items: center;
 color: #FFF; 
 background: rgba(0, 0, 0, 0.31);
+font-style: italic;
 }
 .section_06 , .section_08 , .section_10 , .section_12{
 	padding: 80px 70px 132px 70px;
@@ -10638,8 +10639,8 @@ section.section_05 {
 		text-align: center;
 	}
 	.product-card-info.width-50\%.flex.flex-column.flex-center.padding-x-xl {
-		text-align: left;
-		align-items: flex-start;
+		text-align: center;
+		align-items: center;
 	}
 	.text-xl.text-left.product-title , .text-xl.text-center.product-title.text-truncate.margin-bottom-lg {
 		font-size: 38px;
@@ -10648,7 +10649,7 @@ section.section_05 {
 		font-style: normal;
 		line-height: normal;
 		letter-spacing: normal;
-		text-align: left;
+		text-align: center;
 		margin-bottom: 16px;
 		white-space: break-spaces;
 		font-family: var(--font-secondary);
@@ -10670,13 +10671,13 @@ section.section_05 {
 	.product-card-desc {
 		margin-bottom: 0;
 		padding: 0;
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: normal;
 		font-stretch: condensed;
 		font-style: normal;
 		line-height: 1.57;
 		letter-spacing: normal;
-		text-align: left;
+		text-align: center;
 	}
 	.section_07 .margin-bottom-lg.text-md{
 		font-size: 16px;
@@ -10743,6 +10744,10 @@ section.section_05 {
 		line-height: normal;
 		letter-spacing: normal;
 		text-align: center;
+	}
+	
+	.product-card-desc+a{
+		margin-top: 21px!important;
 	}
 	.acc__panel.answer-mobile {
 		font-size: 16px;
