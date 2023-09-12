@@ -10508,10 +10508,15 @@ video {
 	section.section_08.faq-section-mobile.padding-y-sm.padding-x-sm {
 		padding-bottom: 65px;
 	}
-	
+	.section_04 p.font-secondary.text-xl.font-light.letter-spacing-md {
+		font-size: 38px;
+	}
 }
 
 @media only screen and (max-width: 767px){
+	.section_04 p.font-secondary.text-xl.font-light.letter-spacing-md {
+		font-size: 22px;
+	}
 	.product-title {
 		font-family: var(--font-secondary)!important;
 		font-style: italic!important;
