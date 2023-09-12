@@ -10225,7 +10225,7 @@ line-height: 150%; /* 39px */
 		flex-shrink: 0;
 		margin: auto; 
     display: flex; 
-	font-size: 20px;
+	font-size: 24px;
 } .load_more:hover { 
     background: #000;
     opacity: 0.8;
