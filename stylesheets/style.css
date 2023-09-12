@@ -10351,6 +10351,7 @@ footer .email-input-container input {
 p.pdp_title {
     margin-top: 0;
     height: -webkit-fill-available;
+	max-height: 100px;
 }
 video { 
     max-height: 650px;
